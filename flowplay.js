@@ -37,7 +37,7 @@ if (window.innerWidth >= 768) {
             {
               y: 0, // End at the original position
               opacity: 1, // End with 100% opacity
-              easing: "power4.out",
+              ease: "power4.out",
               duration: 0.25, // Duration of the animation in seconds
               onComplete: () => {
                 // Animation for .button-wrapper and its child elements
@@ -53,7 +53,7 @@ if (window.innerWidth >= 768) {
                   {
                     y: 0, // End at the original position
                     opacity: 1, // End with 100% opacity
-                    easing: "power4.out",
+                    ease: "power4.out",
                     duration: 0.25, // Duration of the animation in seconds
                     stagger: 0.1, // Stagger the animation of each child element by 0.1 second
                   }
