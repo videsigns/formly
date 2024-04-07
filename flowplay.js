@@ -121,7 +121,7 @@ const featureCards = document.querySelectorAll(".feature-card");
 const options = {
   root: null,
   rootMargin: "0px",
-  threshold: 1,
+  threshold: 0.9,
 };
 
 // Keep track of the currently active card
